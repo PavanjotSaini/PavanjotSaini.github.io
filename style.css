@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.text_font{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.general{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    float: left;
+    width: auto;
+    height: 8vw;
+    position: fixed;
+    top: 1vw;
+    left:1vw;
+    z-index: 1000;
+}
+.name_container{
+    margin-top: 13vw;
+    margin-bottom: 20vw;
+    
+}
+.name_body{
+    text-align: center;
+    list-style-type: none;
+    font-size: 3vw;
+}
+.name{
+    
+}
+.subhead{
+    
+    
+} 
+
+
+.orange_container{
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    background:orange;
+    color: white;
+    padding:5vw 0 27.5vw;
+    transform: skewY(4deg);
+    
+  
+   
+}
+.name_container:after{
+    content: "";
+    background: orange;
+    width: 100%;
+    transform: skewY(-4deg);
+    height: 10vw;
+    display: block;
+    position: absolute;
+    margin-top: 17vw;
+    
+
+}
+.orange_container:after{
+    content: "";
+    background:white;
+    width: 100%;
+    height: 10vw;
+    display:block;
+    position: absolute;
+    transform: skewY(4deg);
+    margin-top: 34vw;
+
+}
+.about_text{
+    transform: skewY(-4deg);
+    list-style-type: none;
+}
+.about{
+    font-size: 4vw;
+    
+    
+}
+.about_paragraph{
+    font-size: 2.5vw;
+    
+}
+
+
+.gray_container{
+    text-align: center;
+    list-style-type: none;
+    background-color:white;
+    color: Black;
+    padding:5vw 0 25vw;
+    transform: skewY(-4deg);
+
+}
+.gray_container:after{
+    content: "";
+    background:black;
+    width: 100%;
+    height: 7vw;
+    display:block;
+    position: absolute;
+    transform: skewY(8deg);
+    margin-top: 25vw;
+}
+.gray_container ul li{
+    list-style-type: none;
+    transform: skewY(4deg);
+    font-size: 2vw;
+}
+
+.footer{
+    transform: skewY(-4deg);
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:5vw 0 1vw;
+}
+.footer:after{
+    content: "";
+    transform: skewY(4deg);
+    background-color: black;
+    height: 5vw;
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+.footer li{
+    transform: skewY(4deg);
+    list-style-type: none;
+    font-size: 1vw;
+}
